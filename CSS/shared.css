@@ -1,0 +1,144 @@
+/* Global variables */
+:root {
+    --main-navigation-letter: #20292f;
+    --sub-navigation-letter: #303031;
+    --price-letter: rgba(0, 0, 0, 0.4);
+    --title-letter: #333333;
+    --text-letter: #666666;
+    --oranged-letter: #ff8f00;
+    --blue-color:#0752fe;
+    --spring-green:#29cf8d;
+    --navbar-height:48px;
+}
+
+/* Core styles */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    letter-spacing: 0.04rem;
+    margin: 0;
+    padding-top: var(--navbar-height);
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+}
+
+a {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+hr{
+    width: calc(100% - 16rem);
+    border: 0.1em solid #e3e3e399;
+    box-sizing: border-box;
+}
+
+* button:hover {
+    cursor: pointer;
+}
+
+.uppercased{
+    text-transform:uppercase;
+}
+
+/* Header section */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: none;
+    box-shadow: 0 1rem 1rem rgba(180, 188, 196, 0.3);
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav a {
+    display: inline-block;
+    padding: 0.5rem 0.2rem;
+    font-size: 1.2rem;
+    color: var(--sub-navigation-letter);
+    font-weight: 500;
+    letter-spacing: 0.075rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.right-nav>.nav-links>a:last-of-type {
+    font-weight: 600;
+    color: var(--main-navigation-letter);
+    margin-right: 3rem;
+    padding: 0.5rem;
+}
+
+.left-nav a {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--main-navigation-letter);
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+/* Responsive Design styles */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 4px 0;
+    transition: transform 0.3s;
+}
+
+@media (max-width: 991px) {
+
+    .container {
+        margin: 0 0;
+        padding: 1rem 1rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #333;
+        width: 200px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}

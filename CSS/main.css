@@ -1,0 +1,586 @@
+/* Home section */
+#home {
+    height: 120vh;
+    letter-spacing: 0.025rem;
+}
+
+.home__main-page {
+    height: 840px;
+    background-size: contain;
+    background-position: center bottom 0px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.home__main-page .left-side,
+.home__main-page .right-side {
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+
+.home__main-page .left-side {
+    float: left;
+    padding-left: 8rem;
+}
+
+.home__main-page>.left-side>h1 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 3.875rem;
+    margin-top: 5.4rem;
+    margin-bottom: 0;
+}
+
+.home__main-page>.left-side>a>button {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.08rem;
+    background-color: #263548;
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 0.8rem;
+    box-shadow: 0 1rem 1rem rgba(56, 84, 113, 0.3);
+    padding: 1.2rem 3rem;
+}
+
+.home__main-page>.left-side>p {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
+}
+
+.home__main-page .right-side {
+    float: right;
+    padding-right: 8rem;
+}
+
+.home__main-page .right-side img {
+    width: 100%;
+    float: right;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/*pricing part */
+.home__showing-price {
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+    padding: 0 8rem;
+}
+
+.home__showing-price .domains {
+    margin-right: 3.5rem;
+}
+
+.home__showing-price h2,
+.home__showing-price p {
+    display: inline-block;
+}
+
+.home__showing-price h2 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1.75rem;
+    color: #000;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+.home__showing-price p {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 0.875rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+.home__showing-price h2::before {
+    content: ".";
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1.75rem;
+    color: var(--blue-color);
+    font-weight: 700;
+    font-style: bold;
+    line-height: 1.5rem;
+}
+
+/* End Home section */
+
+/* Services section */
+#services {
+    width: 100%;
+}
+
+.services__main {
+    width: 67%;
+    box-sizing: border-box;
+    float: left;
+    padding: 6rem 4rem 3rem 8rem;
+    background: linear-gradient(to bottom, #fff 25%, #f4f4f4 90%, #fff 100%);
+}
+
+.services__main .about-services {
+    padding: 0 8rem;
+}
+
+.about-services h4 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.45rem;
+}
+
+.about-services p {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 2.5rem;
+    color: var(--title-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3.5rem;
+    margin-top: -0.5rem;
+}
+
+.about-services>a>button {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.75rem;
+    letter-spacing: 0.08rem;
+    padding: 1.2rem 3rem;
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 1rem 1rem rgba(56, 84, 113, 0.3);
+}
+
+.service-component {
+    width: 340px;
+    padding: 2.2rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.service-component img {
+    width: 100px;
+    height: 100px;
+}
+
+.service-component h3 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1.6rem;
+    color: var(--title-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2rem;
+    padding: 0;
+}
+
+.service-component p {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
+    padding-top: 0;
+}
+
+
+.service-component>a>button {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--blue-color);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.08rem;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    padding: 1.2rem 0.5rem;
+}
+
+.service-component>a>i {
+    margin-left: 0;
+    padding-left: 0;
+    color: var(--blue-color);
+    font-size: 1rem;
+}
+
+.uptime-guarantee {
+    padding-top: 180px;
+    float: left;
+}
+
+.secure-backups {
+    padding-top: 0;
+    float: right;
+}
+
+.services__side-bar {
+    width: 33%;
+    box-sizing: border-box;
+    float: right;
+    padding-right: 8rem;
+    padding: 6rem 8rem 3rem 0;
+    background: linear-gradient(to bottom, #fff, #f4f4f4 90%, #fff 100%);
+}
+
+/* End Services section */
+
+/* Features section */
+#features {
+    width: 100%;
+}
+
+.features__info {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 6rem 4rem 4rem 8rem;
+}
+
+.features__info h4 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.45rem;
+}
+
+.features__info h1 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 2.5rem;
+    color: var(--title-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.25rem;
+}
+
+.features__info p {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1.1rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
+}
+
+.features__attachment {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 6rem 8rem 4rem 0;
+}
+
+.features__attachment img {
+    width: 100%;
+    height: auto;
+}
+
+/* End  Features section */
+
+/* Services Items section */
+#service-items {
+    width: 100%;
+    padding: 4rem 8rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(33% - 2rem), 1fr));
+    gap: 3rem;
+}
+
+.service-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.service-item p {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
+    padding-top: 0;
+}
+
+/* End Services Items section */
+
+/* Pricing section */
+#pricing {
+    width: 100%;
+    height: auto;
+    padding:  8rem;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center bottom 0px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-01.png), linear-gradient(180deg, #ffffff 0%, #eef9ff 100%) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+#pricing h4,
+#pricing h1 {
+    text-align: center;
+}
+
+#pricing h4 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.45rem;
+}
+
+#pricing h1 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 2.5rem;
+    color: var(--title-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3.5rem;
+    margin-top: -0.5rem;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(33% - 3rem), 1fr));
+    gap: 4rem;
+    margin: 5rem 0;
+}
+
+.pricing-item {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.pricing-item h3 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1.2rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.6rem;
+    padding-left: 1.5rem;
+}
+
+.pricing-item p {
+    position: relative;
+}
+
+.pricing-item .pricing-currency {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 0.5rem;
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1.2rem;
+    color: #999;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6rem;
+    padding-left: 1rem;
+}
+
+.pricing-item .pricing-amount {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 3.2rem;
+    color: #000;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 3.3rem;
+    margin-left: 1.75rem;
+}
+
+.pricing-item .pricing-duration {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1rem;
+    color: #999;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.pricing-item>ul>li {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1.1rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.75rem;
+    padding: 1rem 0;
+}
+
+.pricing-item>a {
+    text-decoration: none;
+}
+
+.pricing-item>a>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+    padding: 1rem 2rem;
+    background-color: #fff4e6;
+    border: none;
+    border-radius: 0.4rem;
+    margin: 1.4rem auto;
+}
+
+#pricing-item-1>ul>li::marker {
+    color: var(--oranged-letter); /* Change bullet color to orange */
+}
+
+#pricing-item-2 h3,
+#pricing-item-2>ul>li::marker {
+    color: var(--blue-color); 
+}
+
+#pricing-item-2>a>button{
+    background-color: var(--blue-color);
+    color: #fff;
+}
+
+#pricing-item-3 h3,
+#pricing-item-3>a>button,
+#pricing-item-3>ul>li::marker {
+    color: var(--spring-green);
+}
+
+#pricing-item-3>a>button{
+    background-color: #e9faf2;
+}
+
+#pricing-item-1>ul>li:nth-of-type(5),
+#pricing-item-1>ul>li:last-of-type,
+#pricing-item-2>ul>li:last-of-type{
+    opacity: 0.5;
+}
+/* End Pricing section */
