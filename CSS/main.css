@@ -584,3 +584,25 @@
     opacity: 0.5;
 }
 /* End Pricing section */
+
+/* File management section */
+#file-management {
+    width: 100%;
+    padding: 8rem 8rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+#file-management .file-management__content {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#file-management .file-management__info{
+    float: left;
+}
+
+#file-management .file-management__attachment {
+    float: right;
+}
