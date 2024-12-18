@@ -91,6 +91,21 @@ hr {
     line-height: 1.45rem;
 }
 
+.big-white-title {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 3.25rem;
+    color: #ffffff;
+    line-height: 3.875rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: -0.7rem;
+    padding-bottom: 0;
+}
+
 .sub-bigger-title {
     font-family: Rubik,
         Helvetica,
@@ -115,6 +130,10 @@ hr {
     font-weight: 500;
     font-style: normal;
     line-height: 2rem;
+}
+
+.clearfix {
+    clear: both;
 }
 
 /* Header section */
