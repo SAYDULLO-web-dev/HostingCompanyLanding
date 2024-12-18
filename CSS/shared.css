@@ -6,9 +6,9 @@
     --title-letter: #333333;
     --text-letter: #666666;
     --oranged-letter: #ff8f00;
-    --blue-color:#0752fe;
-    --spring-green:#29cf8d;
-    --navbar-height:48px;
+    --blue-color: #0752fe;
+    --spring-green: #29cf8d;
+    --navbar-height: 48px;
 }
 
 /* Core styles */
@@ -39,20 +39,82 @@ body {
 a {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
 }
 
-hr{
+hr {
     width: calc(100% - 16rem);
     border: 0.1em solid #e3e3e399;
     box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding: 1.2rem 2.5rem;
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 1.5rem 1.25rem #dce6fd;
 }
 
 * button:hover {
     cursor: pointer;
 }
 
-.uppercased{
-    text-transform:uppercase;
+.uppercased {
+    text-transform: uppercase;
+}
+
+.main-oranged-title {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1rem;
+    color: var(--oranged-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.45rem;
+}
+
+.sub-bigger-title {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 2.5rem;
+    color: var(--title-letter);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.25rem;
+}
+
+.text-open-sans {
+    font-family: "Open Sans",
+        Arial,
+        sans-serif;
+    font-size: 1.1rem;
+    color: var(--text-letter);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2rem;
 }
 
 /* Header section */

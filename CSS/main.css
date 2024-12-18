@@ -42,23 +42,8 @@
 }
 
 .home__main-page>.left-side>a>button {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 0.875rem;
-    color: #ffffff;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.5rem;
-    letter-spacing: 0.08rem;
     background-color: #263548;
-    border: none;
-    border-radius: 0.4rem;
-    margin-top: 0.8rem;
     box-shadow: 0 1rem 1rem rgba(56, 84, 113, 0.3);
-    padding: 1.2rem 3rem;
 }
 
 .home__main-page>.left-side>p {
@@ -188,25 +173,6 @@
     margin-top: -0.5rem;
 }
 
-.about-services>a>button {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 0.875rem;
-    color: #ffffff;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.75rem;
-    letter-spacing: 0.08rem;
-    padding: 1.2rem 3rem;
-    background-color: var(--blue-color);
-    border: none;
-    border-radius: 0.4rem;
-    box-shadow: 0 1rem 1rem rgba(56, 84, 113, 0.3);
-}
-
 .service-component {
     width: 340px;
     padding: 2.2rem;
@@ -247,7 +213,6 @@
     line-height: 2rem;
     padding-top: 0;
 }
-
 
 .service-component>a>button {
     font-family: Rubik,
@@ -307,45 +272,6 @@
     padding: 6rem 4rem 4rem 8rem;
 }
 
-.features__info h4 {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 1rem;
-    color: var(--oranged-letter);
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.45rem;
-}
-
-.features__info h1 {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 2.5rem;
-    color: var(--title-letter);
-    font-weight: 600;
-    font-style: normal;
-    line-height: 3.5rem;
-    margin-top: -0.5rem;
-    margin-bottom: -0.25rem;
-}
-
-.features__info p {
-    font-family: "Open Sans",
-        Arial,
-        sans-serif;
-    font-size: 1.1rem;
-    color: var(--text-letter);
-    font-weight: 500;
-    font-style: normal;
-    line-height: 2rem;
-}
-
 .features__attachment {
     width: 50%;
     float: right;
@@ -383,14 +309,7 @@
 }
 
 .service-item p {
-    font-family: "Open Sans",
-        Arial,
-        sans-serif;
     font-size: 1rem;
-    color: var(--text-letter);
-    font-weight: 500;
-    font-style: normal;
-    line-height: 2rem;
     padding-top: 0;
 }
 
@@ -400,7 +319,7 @@
 #pricing {
     width: 100%;
     height: auto;
-    padding:  8rem;
+    padding: 8rem;
     box-sizing: border-box;
     background-size: contain;
     background-position: center bottom 0px;
@@ -413,33 +332,6 @@
 #pricing h4,
 #pricing h1 {
     text-align: center;
-}
-
-#pricing h4 {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 1rem;
-    color: var(--oranged-letter);
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.45rem;
-}
-
-#pricing h1 {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 2.5rem;
-    color: var(--title-letter);
-    font-weight: 600;
-    font-style: normal;
-    line-height: 3.5rem;
-    margin-top: -0.5rem;
 }
 
 .pricing-container {
@@ -456,15 +348,7 @@
 }
 
 .pricing-item h3 {
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
     font-size: 1.2rem;
-    color: var(--oranged-letter);
-    font-weight: 600;
-    font-style: normal;
     line-height: 1.6rem;
     padding-left: 1.5rem;
 }
@@ -517,13 +401,6 @@
 }
 
 .pricing-item>ul>li {
-    font-family: "Open Sans",
-        Arial,
-        sans-serif;
-    font-size: 1.1rem;
-    color: var(--text-letter);
-    font-weight: 500;
-    font-style: normal;
     line-height: 1.75rem;
     padding: 1rem 0;
 }
@@ -533,62 +410,55 @@
 }
 
 .pricing-item>a>button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Rubik,
-        Helvetica,
-        Arial,
-        Lucida,
-        sans-serif;
-    font-size: 1rem;
-    color: var(--oranged-letter);
-    font-weight: 600;
-    font-style: normal;
-    line-height: 2rem;
-    letter-spacing: 0.08rem;
-    padding: 1rem 2rem;
-    background-color: #fff4e6;
-    border: none;
-    border-radius: 0.4rem;
+    padding: 1.2rem 1.6rem;
+    box-shadow: none;
     margin: 1.4rem auto;
 }
 
+#pricing-item-1>a>button,
 #pricing-item-1>ul>li::marker {
-    color: var(--oranged-letter); /* Change bullet color to orange */
+    color: var(--oranged-letter);
+    /* Change bullet and button font color to orange */
+}
+
+#pricing-item-1>a>button {
+    background-color: #fff4e6;
 }
 
 #pricing-item-2 h3,
 #pricing-item-2>ul>li::marker {
-    color: var(--blue-color); 
+    color: var(--blue-color);
 }
 
-#pricing-item-2>a>button{
+#pricing-item-2>a>button {
     background-color: var(--blue-color);
     color: #fff;
+    box-shadow: 0 1rem 1rem #dbe6fe;
 }
 
 #pricing-item-3 h3,
 #pricing-item-3>a>button,
 #pricing-item-3>ul>li::marker {
     color: var(--spring-green);
+    /* Change bullet, tite and button font color to spring-green */
 }
 
-#pricing-item-3>a>button{
+#pricing-item-3>a>button {
     background-color: #e9faf2;
 }
 
 #pricing-item-1>ul>li:nth-of-type(5),
 #pricing-item-1>ul>li:last-of-type,
-#pricing-item-2>ul>li:last-of-type{
+#pricing-item-2>ul>li:last-of-type {
     opacity: 0.5;
 }
+
 /* End Pricing section */
 
 /* File management section */
 #file-management {
     width: 100%;
-    padding: 8rem 8rem;
+    padding: 5rem 8rem;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -599,10 +469,116 @@
     box-sizing: border-box;
 }
 
-#file-management .file-management__info{
+#file-management .file-management__info {
     float: left;
+    padding-right: 2rem;
+}
+
+.file-management__info .file-management__items {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.file-management__info .file-management__item {
+    display: grid;
+    grid-template-columns: 48px calc(100% - 48px);
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.file-management__item .image-container {
+    width: 100%;
+    min-width: 48px;
+    height: 100%;
+    float: left;
+}
+
+.file-management__item img {
+    width: 48px;
+    height: 48px;
+}
+
+.file-management__item article {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.file-management__item>article>h3 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 1.2rem;
+    color: var(--title-letter);
+    line-height: 1.6rem;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.file-management__item>article>p {
+    margin: 0.5rem 0;
+    padding: 0;
 }
 
 #file-management .file-management__attachment {
     float: right;
+    padding: 2rem 0 0 2rem;
 }
+
+.file-management__attachment img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+/* End File management section */
+
+/* Live chat section */
+#live-chat {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-02.png), linear-gradient(150deg, #ffba61 0%, #ffe970 100%) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.live-chat__container {
+    padding: 12rem 20rem;
+    text-align: center;
+}
+
+.live-chat__container h1 {
+    font-family: Rubik,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    font-size: 3.25rem;
+    color: #ffffff;
+    line-height: 3.875rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: -0.5rem;
+    padding-bottom: 0;
+}
+
+.live-chat__container p {
+    color: #ffffff;
+}
+
+.live-chat__container .button {
+    background-color: #263548;
+    box-shadow: 0.2rem 1rem 1rem rgba(105, 98, 60, 0.3);
+    margin: 2rem auto;
+}
+/* End Live chat section */
