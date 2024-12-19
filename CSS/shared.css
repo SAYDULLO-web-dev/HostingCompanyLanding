@@ -26,6 +26,7 @@ body {
     letter-spacing: 0.04rem;
     margin: 0;
     padding-top: var(--navbar-height);
+    overflow-x: hidden;
 }
 
 .container {
@@ -142,42 +143,54 @@ hr {
     top: 0;
     width: 100%;
     border: none;
-    box-shadow: 0 1rem 1rem rgba(180, 188, 196, 0.3);
     z-index: 10;
 }
 
 .navbar {
+    display: grid;
+    grid-template-columns: 360px calc(100% - 360px);
+    gap: 1rem;
+    margin: 0;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 1rem rgba(180, 188, 196, 0.3);
+}
+
+.right-nav .nav-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    float: right;
 }
 
 .right-nav a {
     display: inline-block;
-    padding: 0.5rem 0.2rem;
+    margin-right: 1rem;
     font-size: 1.2rem;
     color: var(--sub-navigation-letter);
     font-weight: 500;
     letter-spacing: 0.075rem;
     text-decoration: none;
-    text-align: center;
 }
 
 .right-nav>.nav-links>a:last-of-type {
     font-weight: 600;
     color: var(--main-navigation-letter);
-    margin-right: 3rem;
-    padding: 0.5rem;
+    padding-right: 2rem;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
 }
 
 .left-nav a {
     display: inline-block;
-    padding: 0.5rem;
     font-size: 1.4rem;
     color: var(--main-navigation-letter);
     font-weight: 600;
     text-decoration: none;
-    text-align: center;
     margin-left: 0;
 }
 

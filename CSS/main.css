@@ -618,7 +618,6 @@
     color: var(--oranged-letter);
     margin-right: 1rem;
 }
-
 /* End Setting-up section */
 
 /* Customer Testimonials section */
@@ -674,7 +673,6 @@
     padding-top: 0;
     margin-top: 0;
 }
-
 /* End Customer Testimonials section */
 
 /* Guarantee section */
@@ -763,6 +761,7 @@
     position: relative;
     padding: 12rem 20rem;
     margin-top: 4rem;
+    margin-bottom: -1rem;
     z-index: 1;
 }
 
@@ -778,9 +777,40 @@
 /* End Trial duration section */
 
 /* Footer section */
-
 #footer {
     background-color: #171717;
     color: #676665;
     box-sizing: border-box;
 }
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2rem), 1fr));
+    gap: 2rem;
+    padding: 0 8rem;
+    margin: 0;
+}
+
+#footer p{
+    font-size: 1rem;
+}
+
+#footer .span-bold{
+    font-weight: bold;
+}
+
+footer .footer__social-medias {
+    list-style: none;
+    float: right;
+}
+
+.footer__social-medias .footer__social-media-item {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer__social-media-item>a>i {
+    color: #676665;
+    font-size: 2rem;
+}
+/* End Footer section */
