@@ -1,6 +1,6 @@
 # Hosting Company Landing Page
 
-This is a landing page project developed for the Mohirdev.uz lesson. It serves as a template for a premium hosting company, showcasing various services and features that a hosting provider might offer. The project uses Elegant Themes for UI design to create a modern and visually appealing experience.
+This is a landing page project created as part of the **Front-End Development** module on [Mohirdev.uz](https://mohirdev.uz/). It serves as a template for a premium hosting company, showcasing various services and features that a hosting provider might offer. The project uses Elegant Themes for UI design to create a modern and visually appealing experience.
 
 ---
 
@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/99584fa3-3dc9-47e3-9e71-cfe8e04d02fa
 
 1. Clone this repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/hosting-company-landing.git
+   git clone https://github.com/SAYDULLO-web-dev/HostingCompanyLanding_2-MohirDev-.git
 
 2. Open the index.html file in your preferred browser to view the landing page.
 
@@ -79,6 +79,6 @@ https://github.com/user-attachments/assets/99584fa3-3dc9-47e3-9e71-cfe8e04d02fa
  * Web Fonts and Icons: Explored using Google Fonts and Font Awesome for typography and icons, adding aesthetic value to the page.
 
 👏 Acknowledgements
-Elegant Themes: For inspiring UI design.
-FontAwesome: For the icons used in the project.
-Google Fonts: For providing beautiful typography.
+ * Elegant Themes: For inspiring UI design.
+ * FontAwesome: For the icons used in the project.
+ * Google Fonts: For providing beautiful typography.
